@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container ">
+      <div class="row">
+          <div class="col-xs-12">
+              <div class="panel panel-info ">
+                  <div class="panel-heading">
+                      <h3 class="panel-title question-text">Same Question text</h3>
+                  </div>
+                  <div class="panel-body">
+                      <div class="answer-panel">
+                          <input type="radio" name="answer" id="q1" class="col-xs-1" />
+                          <label for="q1" class="col-xs-11 answer1">Sample Answer 1</label>
+
+                          <input type="radio" name="answer" id="q2" class="col-xs-1" />
+                          <label for="q2" class="col-xs-11 answer2">Sample Answer 2</label>
+
+                          <input type="radio" id="q3" name="answer" class="col-xs-1" />
+                          <label for="q3" class="col-xs-11 answer3">Sample Answer 3</label>
+
+                          <input type="radio" id="q4" name="answer" class="col-xs-1" />
+                          <label for="q4" class="col-xs-11 answer4">Sample Answer 4</label>
+
+                          <input type="radio" id="q5" name="answer" class="col-xs-1" />
+                          <label for="q5" class="col-xs-11 answer5">Sample Answer 4</label>
+
+                      </div>
+                      <div class="row center-button">
+                          <button class="btn btn-info btn-large next-question"> Next Question</button> 
+                      </div>
+                  </div>
+              </div>
+          </div>
+        
+      </div>   
+  </div>
+    <script src="Scripts/app.js"></script>
+    <style type="text/css">
+        .container{margin-top:30px;}
+        body{background-image: url('https://static.pexels.com/photos/7934/night-skyline-usa-manhattan.jpg'); background-size:cover;background-position-y:-220px;}
+        .center-button{text-align:center;}
+        label{padding: 2px 0 7px 0;margin-left: -40px;}
+        input[type="radio"]{height:18px;}
+    </style>
+</body>
+
+</html>
